@@ -1,0 +1,12 @@
+name: 'Inline CSS'
+description: 'Inlines CSS into HTML'
+inputs:
+  html-path:  # id of input
+    description: 'Path to html'
+    required: true
+outputs:
+  content: # id of output
+    description: 'HTML content with inlined CSS.'
+runs:
+  using: 'node16'
+  main: 'index.js'
